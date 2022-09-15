@@ -1,4 +1,4 @@
-import LongestSameSubstr;
+import java.util.Scanner;
 
 public class Main{
 
@@ -9,6 +9,6 @@ public class Main{
         String text1 = sc.next();
         String text2 = sc.next();
         sc.close();
-        LongestSameSubstr.engine(m, n, text1, text2);
+        System.out.println(LongestSameSubstr.engine(m, n, text1, text2));
     }
 }
