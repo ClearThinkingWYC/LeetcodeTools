@@ -1,5 +1,12 @@
 import java.lang.StringBuilder;
-// Longest same part of two strings.
+
+/**
+ * Find out longest same part of two strings.
+ *
+ * Examples:
+ *      input: 3 (length of first string), 4 (length of second string), ads (first string), adds (second string)
+ *      output: ad
+ */
 
 public class LongestSameSubstr{
     public static String engine(int m, int n, String text1, String text2) {
